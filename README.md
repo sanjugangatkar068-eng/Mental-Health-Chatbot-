@@ -31,19 +31,23 @@ User enters their feelings or mood into the chatbot.
 The system analyzes the text input.
 The chatbot detects the emotional state of the user.
 Based on the detected mood, it provides helpful responses such as relaxation techniques or motivational advice.
+
 🚀 Installation and Setup
 1️⃣ Clone the Repository
 Bash
 Copy code
 git clone https://github.com/yourusername/mental-health-chatbot.git
+
 2️⃣ Navigate to the Project Folder
 Bash
 Copy code
 cd mental-health-chatbot
+
 3️⃣ Install Required Libraries
 Bash
 Copy code
 pip install -r requirements.txt
+
 4️⃣ Run the Application
 Bash
 Copy code
