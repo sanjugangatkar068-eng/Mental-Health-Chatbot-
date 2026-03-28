@@ -6,5 +6,6 @@ if "messages" not in st.session_state:
 user_input = st.text_input("How are you feeling today?")
 def get_response(text):
     text = text.lower()
+if any(word in text for word in ["sad", "depressed", "low"]):
 
 
