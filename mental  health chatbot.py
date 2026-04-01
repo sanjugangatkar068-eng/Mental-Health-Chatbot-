@@ -10,6 +10,7 @@ if any(word in text for word in ["sad", "depressed", "low"]):
           return "I'm really sorry you're feeling this way 💙 Try talking to someone you trust or doing something you enjoy."
 
     elif any(word in text for word in ["anxious", "stress", "worried"]):
+       return "Let’s pause for a moment 🧘‍♂️ Try breathing: inhale 4 sec, hold 2 sec, exhale 6 sec."
 
-
+ 
 
