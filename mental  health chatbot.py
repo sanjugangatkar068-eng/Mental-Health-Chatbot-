@@ -12,9 +12,7 @@ if any(word in text for word in ["sad", "depressed", "low"]):
     elif any(word in text for word in ["anxious", "stress", "worried"]):
        return "Let’s pause for a moment 🧘‍♂️ Try breathing: inhale 4 sec, hold 2 sec, exhale 6 sec."
 
-
-
-    elif any(word in text for word in ["happy", "good", "great"]):
+elif any(word in text for word in ["happy", "good", "great"]):
 
  
 
