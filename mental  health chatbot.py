@@ -15,7 +15,6 @@ if any(word in text for word in ["sad", "depressed", "low"]):
 elif any(word in text for word in ["happy", "good", "great"]):
           return "That's amazing! 😊 Keep doing what makes you happy!"
   
-
     elif any(word in text for word in ["angry", "frustrated"]):
  
 
