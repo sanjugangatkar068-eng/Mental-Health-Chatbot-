@@ -16,5 +16,6 @@ elif any(word in text for word in ["happy", "good", "great"]):
           return "That's amazing! 😊 Keep doing what makes you happy!"
   
     elif any(word in text for word in ["angry", "frustrated"]):
+             return "It's okay to feel angry sometimes. Try taking a short walk or writing down your thoughts."
  
 
