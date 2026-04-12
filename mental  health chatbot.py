@@ -21,5 +21,10 @@ elif any(word in text for word in ["happy", "good", "great"]):
 else:
         return "I'm here for you 🤍 Tell me more about what you're feeling."
 
+if user_input:
+    response = get_response(user_input)
+
+
+
  
 
