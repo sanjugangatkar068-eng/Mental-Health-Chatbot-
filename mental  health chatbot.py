@@ -24,6 +24,9 @@ else:
 if user_input:
     response = get_response(user_input)
 st.session_state.messages.append(("You", user_input))
+
+st.session_state.messages.append(("Bot", response))
+
    
 
 
