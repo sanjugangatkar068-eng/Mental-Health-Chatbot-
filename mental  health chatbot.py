@@ -28,6 +28,7 @@ st.session_state.messages.append(("You", user_input))
 st.session_state.messages.append(("Bot", response))
 
 for sender, message in
+st.session_state.messages:
 
 
    
