@@ -29,7 +29,8 @@ st.session_state.messages.append(("Bot", response))
 
 for sender, message in
 st.session_state.messages:
-
+       if sender == "You":
+        st.write(f"🧑‍💻 **You:** {message}")
 
    
 
